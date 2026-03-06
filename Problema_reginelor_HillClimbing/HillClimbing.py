@@ -101,7 +101,8 @@ def afiseaza_solutie(solutie):
     print()
 
 if __name__ == '__main__':
-    solutie = hill_climbing(10, 8)
+    solutie = hill_climbing(5, 8)
 
+    print(solutie)
     afiseaza_solutie(solutie)
     print(f'Perechi de regine care se ataca: {functia_obiectiv(solutie)}')
